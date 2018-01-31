@@ -1,0 +1,134 @@
+1517425284737	geckodriver	INFO	geckodriver 0.19.1
+1517425284747	geckodriver	INFO	Listening on 127.0.0.1:56955
+1517425287195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\JOBAMM~1\\AppData\\Local\\Temp\\rust_mozprofile.meocA35k0fel"
+1517425287777	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1517425288912	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14448] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14448] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1517425290397	Marionette	INFO	Listening on port 56961
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6216] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6216] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 24356] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24356] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5724] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5724] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile[Parent 22908] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 22908] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 23940] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23940] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23608] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 21660] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChaUnable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 18420] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15884] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 2084] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158218	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158218	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158218	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158218	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158218	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+1512411158219	addons.xpi-utils	WARN	Failed to save XPI database: Win error 32 during operation move on file C:\Users\Job Ammerlaan\AppData\Local\Temp\rust_mozprofile.9RNWtLMA6cjR\extensions.json.tmp (Het proces heeft geen toegang tot het bestand omdat het door een ander
+proces wordt gebruikt.
+) ((unknown module)) No traceback available
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/SanityTest.js, line 69: NS_ERROR_FILE_IS_LOCKED: Component returned failure code: 0x8052000e (NS_ERROR_FILE_IS_LOCKED) [nsIPrefService.savePrefFile]
+[Parent 14512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512411164011	Marionette	INFO	Listening on port 62192
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17248] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17248] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512411164478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512411164577	Marionette	DEBUG	Register listener.js for window 4294967297
+1512411164607	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512411171199	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1512411197571	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512411197576	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512411197577	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512411197641	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=netTimeout&u=https%3A//web.whatsapp.com/&c=UTF-8&f=regular&d=De%20server%20op%20web.whatsapp.com%20doet%20er%20te%20lang%20over%20om%20te%20antwoorden."
+[Parent 14512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512411202305	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6952] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512411202313	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1512411202376	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:312:17) JS Stack trace: saveChanges@XPIProviderUtils.js:312:17 < shutdown@XPIProviderUtils.js:666:9 < shutdown@XPIProvider.jsm:2406:13 < _startProvider/AMProviderShutdown/<@AddonManager.jsm:754:21 < AMProviderShutdown@AddonManager.jsm:752:16 < trigger@AsyncShutdown.jsm:703:23 < _wait@AsyncShutdown.jsm:850:7 < wait@AsyncShutdown.jsm:834:28 < shutdownManager@AddonManager.jsm:1131:15 < trigger@AsyncShutdown.jsm:703:23 < _wait@AsyncShutdown.jsm:850:7 < wait@AsyncShutdown.jsm:834:28 < observe@AsyncShutdown.jsm:517:17
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12868] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+jsm:752:16 < trigger@AsyncShutdown.jsm:703:23 < _wait@AsyncShutdown.jsm:850:7 < wait@AsyncShutdown.jsm:834:28 < shutdownManager@AddonManager.jsm:1131:15 < trigger@AsyncShutdown.jsm:703:23 < _wait@AsyncShutdown.jsm:850:7 < wait@AsyncShutdown.jsm:834:28 < observe@AsyncShutdown.jsm:517:17
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 1368] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+omium/src/chrome/common/ipc_channel_win.cc, line 513
+Unable to read VR Path Registry from C:\Users\Job Ammerlaan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
