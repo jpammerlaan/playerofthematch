@@ -17,7 +17,7 @@ def get_player_list():
         return f.read().splitlines()
         
 def write_to_csv(file, contents):
-    with open(file, 'w') as f:
+    with open(file, 'w', encoding="utf-8") as f:
         writer = csv.writer(f)
         for key, value in contents:
             writer.writerow([key, value])
@@ -53,8 +53,14 @@ try:
         print('{} berichten ontvangen. Verwerken...'.format(len(messages_by_sender)))
         for contact in messages_by_sender:
             for message in contact.messages:
-                best_player_match, match_value = process.extractOne(message.content, player_options)
-                print('Message received from: {}. Match value: {}. Text: {}'.format(message.sender.id["user"], match_value, message.content))
+                try:
+                    best_player_match, match_value = process.extractOne(message.content, player_options)
+                    print('Message received from: {}. Match value: {}. Text: {}'.format(message.sender.id["user"], match_value, message.content))
+                except AttributeError:
+                    best_player_match = "Player match failed: AtrributeError"
+                    match_value = 0
+                    print('Message received from: {}. Match failed due to AttributeError'.format(message.sender.id["user"]))
+
                 if (match_value > match_threshold):
                     if (message.sender.id["user"] not in submission_log.keys()):
                         #print "Bedankt voor het stemmen op The Erima Player Of The Match! Je hebt gestemd op {}. Je kunt niet nog een keer stemmen.".format(best_player_match)
