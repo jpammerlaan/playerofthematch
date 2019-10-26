@@ -44,7 +44,7 @@ player_options = get_player_list()
 player_tallies = {player: 0 for player in player_options}
 
 # Main loop
-driver = WhatsAPIDriver()
+driver = WhatsAPIDriver(loadstyles=True)
 driver.wait_for_login()
 
 try:
