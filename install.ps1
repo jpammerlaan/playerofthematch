@@ -38,7 +38,9 @@ Write-output "Installing  python libraries..."
 .\python.exe -m pip install fuzzywuzzy
 
 Write-Output "Patching webwhatsapi"
-invoke-webrequest "https://raw.githubusercontent.com/mukulhase/WebWhatsapp-Wrapper/master/webwhatsapi/js/wapi.js" -OutFile "C:\Program Files\Python37\Lib\site-packages\webwhatsapi\js\wapi.js"
+#Use patch made for selenium.common.exceptions.JavascriptException: Message: TypeError: window.Store.ChatClass is undefined error
+#invoke-webrequest "https://raw.githubusercontent.com/mukulhase/WebWhatsapp-Wrapper/master/webwhatsapi/js/wapi.js" -OutFile "C:\Program Files\Python37\Lib\site-packages\webwhatsapi\js\wapi.js"
+invoke-webrequest "https://raw.githubusercontent.com/emilianot/WebWhatsapp-Wrapper/2abc92bc498d5360ec15bc2d28d434a9405d2f66/webwhatsapi/js/wapi.js" -OutFile "C:\Program Files\Python37\Lib\site-packages\webwhatsapi\js\wapi.js"
 
 write-output "Finished"
 write-output "Add folder ${potsfolder} to the path"
